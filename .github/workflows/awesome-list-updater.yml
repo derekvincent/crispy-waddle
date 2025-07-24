@@ -52,7 +52,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: awesome-lists-update
-        uses: derekvincent/action-awesome-list-updater@v0.1.0
+        uses: derekvincent/action-awesome-list-updater@v0.1.1
         with:
           debug: ${{ env.DEBUG }}
       - name: push-update
