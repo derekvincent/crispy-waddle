@@ -55,22 +55,23 @@ jobs:
         uses: derekvincent/action-awesome-list-updater@v0.1.1
         with:
           debug: ${{ env.DEBUG }}
-      - name: push-update
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          branch: ${{ env.BRANCH_PREFIX }}${{ env.VERSION  }}
-          commit_user_name: awesome-list update
-          commit_user_email: actions@github.com
-          commit_message: Update awesome-list for version ${{ env.VERSION  }}
-          tagging_message: ${{ env.VERSION  }}
-          skip_dirty_check: true
-          commit_options: "--allow-empty"
+#      - name: push-update
+#        uses: stefanzweifel/git-auto-commit-action@v4
+#        with:
+#          branch: ${{ env.BRANCH_PREFIX }}${{ env.VERSION  }}
+#          commit_user_name: awesome-list update
+#          commit_user_email: actions@github.com
+#          commit_message: Update awesome-list for version ${{ env.VERSION  }}
+#          tagging_message: ${{ env.VERSION  }}
+#          skip_dirty_check: true
+#          commit_options: "--allow-empty"
 
       - name: create-pull-request
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Awesome-List update: ${{ env.VERSION  }}"
+          commit-message: "Update awesome-list for version ${{ env.VERSION  }}"
+          title: "Awesome-List update: ${{ env.VERSION  }}"
           body: "To finish this update: Select <code>Merge pull request</code> below and <code>Confirm merge</code>. Also, make sure to publish the created draft release in the [releases section](../releases) as well."
           branch: ${{ env.BRANCH_PREFIX }}${{ env.VERSION  }}
           base: ${{ env.DEFAULT_BRANCH }}
