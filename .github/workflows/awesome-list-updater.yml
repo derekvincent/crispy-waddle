@@ -70,6 +70,9 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          add-paths: |
+              history/**
+              logs/**
           commit-message: "Update awesome-list for version ${{ env.VERSION  }}"
           title: "Awesome-List update: ${{ env.VERSION  }}"
           body: "To finish this update: Select <code>Merge pull request</code> below and <code>Confirm merge</code>. Also, make sure to publish the created draft release in the [releases section](../releases) as well."
