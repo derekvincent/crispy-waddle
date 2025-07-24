@@ -48,10 +48,10 @@ jobs:
         with:
           fetch-depth: 0
  #         ref: ${{ env.BRANCH_PREFIX }}${{ env.VERSION }}
-          ref: ${{ env.DEFAULT_BRANCH }}
+ #         ref: ${{ env.DEFAULT_BRANCH }}
           token: ${{ secrets.GITHUB_TOKEN }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+ #       env:
+ #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: awesome-lists-update
         uses: derekvincent/action-awesome-list-updater@v0.1.1
         with:
@@ -78,7 +78,7 @@ jobs:
           title: "Awesome-List update: ${{ env.VERSION  }}"
           body: "To finish this update: Select <code>Merge pull request</code> below and <code>Confirm merge</code>. Also, make sure to publish the created draft release in the [releases section](../releases) as well."
           branch: ${{ env.BRANCH_PREFIX }}${{ env.VERSION  }}
-          base: ${{ env.DEFAULT_BRANCH }}
+#          base: ${{ env.DEFAULT_BRANCH }}
           delete-branch: true
 
 
