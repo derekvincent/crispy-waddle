@@ -73,6 +73,7 @@ jobs:
           commit-message: "Awesome-List update: ${{ env.VERSION  }}"
           body: "To finish this update: Select <code>Merge pull request</code> below and <code>Confirm merge</code>. Also, make sure to publish the created draft release in the [releases section](../releases) as well."
           branch: ${{ env.BRANCH_PREFIX }}${{ env.VERSION  }}
+          base: ${{ env.DEFAULT_BRANCH }}
           delete-branch: true
 
 
