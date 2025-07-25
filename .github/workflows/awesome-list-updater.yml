@@ -46,6 +46,7 @@ jobs:
         with:
           debug: ${{ env.DEBUG }}
       - run: rm .git/hooks -rf
+      - run: sudo chown -R $USER:$USER .
       - name: create-pull-request
         uses: peter-evans/create-pull-request@v7
         with:
