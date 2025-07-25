@@ -1,0 +1,26 @@
+name: Tag and Relaese the Awesome List Pull Request
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  release:
+    if: ${{ startsWith(github.event.pull_request.title, 'Awesome-List update') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Set Version
+        env:
+          PR_REF: ${{ github.event.pull_request.head.ref }}
+        run: echo "VERSION=${PR_REF##*/}" >> $GITHUB_ENV
+      - name: Create Release
+        uses: comnoco/create-release@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ GITHUB_ENV.VERSION }}
+          release_name: "Update: ${{ GITHUB_ENV.VERSION }}"
+          body_path: ./latest-changes.md
+
