@@ -41,7 +41,7 @@ If you like to add or update items, feel free to open an [issue](https://github.
 - [Rally Resources](#rally-resources) 
     - [Rally Training](#rally-training) _4 items_
 
-- [Others](#other) 
+- [Others](#other) _1 items_
 
 
 [legend]: #
@@ -235,6 +235,7 @@ _Rally Training and Schools_
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
+- <b><a href="https://www.crazyleo.net/">Crazy Leo</a></b>  - 
 
 ---
 
