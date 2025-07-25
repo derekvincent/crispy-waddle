@@ -3,7 +3,7 @@ name: awesome-list-updater
 permissions:
   contents: write
   pull-requests: write
-  
+
 on:
   workflow_dispatch:
     inputs:
@@ -45,20 +45,20 @@ jobs:
         uses: derekvincent/action-awesome-list-updater@v0.1.1
         with:
           debug: ${{ env.DEBUG }}
+      - run: rm .git/hooks -rf
       - name: create-pull-request
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-#          add-paths: |
-#              history/**
-#              logs/**
+          #          add-paths: |
+          #              history/**
+          #              logs/**
           commit-message: "Update awesome-list for version ${{ env.VERSION  }}"
           title: "Awesome-List update: ${{ env.VERSION  }}"
           body: "To finish this update: Select <code>Merge pull request</code> below and <code>Confirm merge</code>. Also, make sure to publish the created draft release in the [releases section](../releases) as well."
           branch: ${{ env.BRANCH_PREFIX }}${{ env.VERSION  }}
           base: ${{ env.DEFAULT_BRANCH }}
-#          delete-branch: true
-
+          delete-branch: true
 
       - name: create-release
         uses: actions/create-release@v1
