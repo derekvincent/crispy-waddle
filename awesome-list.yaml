@@ -228,9 +228,9 @@ items:
   - link_id: https://www.rallysputnik.com/
     name: Rally Sputnik
     category: canadian-rally-teams
- - link_id: https://www.crazyleo.net/
-   name: Crazy Leo 
-   category: Canadian-rally-teams
+  - link_id: https://www.crazyleo.net/
+    name: Crazy Leo 
+    category: Canadian-rally-teams
 
 ## Resources and Schools 
   - link_id: https://racelab.co/
