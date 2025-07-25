@@ -20,7 +20,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ GITHUB_ENV.VERSION }}
-          release_name: "Update: ${{ GITHUB_ENV.VERSION }}"
+          tag_name: ${{ env.VERSION }}
+          release_name: "Update: ${{ env.VERSION }}"
           body_path: ./latest-changes.md
 
