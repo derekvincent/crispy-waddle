@@ -16,11 +16,14 @@ jobs:
           PR_REF: ${{ github.event.pull_request.head.ref }}
         run: echo "VERSION=${PR_REF##*/}" >> $GITHUB_ENV
       - name: Create Release
-        uses: comnoco/create-release@v2
+        id: create_release
+        uses: comnoco/create-release@v2.0.5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ env.VERSION }}
           release_name: "Update: ${{ env.VERSION }}"
           body_path: ./latest-changes.md
+          draft: false
+          prerelease: false
 
