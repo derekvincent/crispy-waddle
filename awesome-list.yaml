@@ -72,6 +72,10 @@ categories:
     label: Atlantic Regional Rallies
     description: Regional Rallies 
     parent: events-canadian-regional 
+  - name: events-western-regional 
+    label: Western Regional Rallies
+    description: Western Regional Rallies 
+    parent: events-canadian-regional     
   - name: rally-teams
     label: Rally Teams
     description: Rally Teams and Drivers
@@ -160,6 +164,11 @@ items:
   - link_id: https://www.bluenoseautosport.ca/trout-lake-rally/
     name: Trout Lake Rally
     category: events-eastern-regional
+## Western Events
+  - link_id: https://cscc.ab.ca/cochrane/
+    name: Cochrane Winter Rally
+    category: events-western-regional
+  
 ## Ontario Rally Clubs
   - link_id: https://www.mlrc.ca/
     name: Maple Leaf Rally Club 
