@@ -21,7 +21,7 @@ If you like to add or update items, feel free to open an [issue](https://github.
     - [Canadain Rally Championship](#events-canadian-national) _2 items_
     - [Canadian Rally Clubs](#canadian-rally-clubs) 
       - [Ontario Rally Clubs](#ontario-rally-clubs) _6 items_
-      - [Quebec Rally Clubs](#quebec-rally-clubs) _4 items_
+      - [Quebec Rally Clubs](#quebec-rally-clubs) _3 items_
       - [Atlantic Rally Clubs](#eastern-rally-clubs) _2 items_
       - [Western Rally Clubs](#western-rally-clubs) _2 items_
       - [Pacific Coast Rally Clubs](#pacific-rally-clubs) _1 items_
@@ -41,7 +41,7 @@ If you like to add or update items, feel free to open an [issue](https://github.
 - [Rally Resources](#rally-resources) 
     - [Rally Training](#rally-training) _4 items_
 
-- [Others](#other) _1 items_
+- [Others](#other) _2 items_
 
 
 [legend]: #
@@ -106,7 +106,6 @@ _Ontario Rally Clubs and Organizations_
 _Quebec Rally Clubs and Organizations_
 
 - <b><a href="http://www.casll.qc.ca/">Club Auto Sport La Licorne</a></b>  - 
-- <b><a href="http://www.rallyebdc.com/">Club Rallye Auto de la Baie-des-Chaleurs (CRAB)</a></b>  - 
 - <b><a href="http://www.rallyeperceneige.com/">Rallye Perce-Neige Maniwaki</a></b>  - 
 - <b><a href="https://www.rallyecharlevoix.com/Le-club-CRDC">Club Rallye De Charlevoix  | RallyeCharlevoix.com</a></b>  - Club organisateur du Rallye de Charlevoix, membre de CARS et RSQ.
 
@@ -236,6 +235,7 @@ _Rally Training and Schools_
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 - <b><a href="https://www.crazyleo.net/">Crazy Leo</a></b>  - 
+- <b><a href="https://laverdiererallyteam.com/en/">Laverdiere Rally Team - Canadian rally team - Laverdière Rally Team</a></b>  - Latest news
 
 ---
 
