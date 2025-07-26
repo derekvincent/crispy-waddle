@@ -30,6 +30,7 @@ If you like to add or update items, feel free to open an [issue](https://github.
       - [Ontario Regional Rallies](#events-ontario-regional) _3 items_
       - [Quebec Regional Rallies](#events-quebec-regional) _1 items_
       - [Atlantic Regional Rallies](#events-eastern-regional) _2 items_
+      - [Western Regional Rallies](#events-western-regional) _1 items_
 
 
 - [Sanctioning Bodies](#sanctioning-bodies) 
@@ -172,6 +173,14 @@ _Regional Rallies_
 
 - <b><a href="https://www.bluenoseautosport.ca/ledwidge-lookoff-rally/">Ledgwidge Lookoff Rally</a></b>  - 
 - <b><a href="https://www.bluenoseautosport.ca/trout-lake-rally/">Trout Lake Rally</a></b>  - 
+
+#### Western Regional Rallies
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+_Western Regional Rallies_
+
+- <b><a href="https://cscc.ab.ca/cochrane/">Cochrane Winter Rally</a></b>  - 
 
 ---
 
