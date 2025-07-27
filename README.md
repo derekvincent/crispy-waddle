@@ -18,16 +18,16 @@ If you like to add or update items, feel free to open an [issue](https://github.
 [categories]: #
 - [Canadian Rally](#canadian-rally) 
     - [Canadian Sanctioning Bodies](#sanctioning-bodies-canada) _6 items_
-    - [Canadain Rally Championship](#events-canadian-national) _2 items_
+    - [Canadain Rally Championship](#events-canadian-national) _1 items_
     - [Canadian Rally Clubs](#canadian-rally-clubs) 
-      - [Ontario Rally Clubs](#ontario-rally-clubs) _6 items_
-      - [Quebec Rally Clubs](#quebec-rally-clubs) _3 items_
+      - [Ontario Rally Clubs](#ontario-rally-clubs) _5 items_
+      - [Quebec Rally Clubs](#quebec-rally-clubs) _4 items_
       - [Atlantic Rally Clubs](#eastern-rally-clubs) _2 items_
       - [Western Rally Clubs](#western-rally-clubs) _2 items_
       - [Pacific Coast Rally Clubs](#pacific-rally-clubs) _1 items_
 
     - [Canadain Regional Rally](#events-canadian-regional) _2 items_
-      - [Ontario Regional Rallies](#events-ontario-regional) _3 items_
+      - [Ontario Regional Rallies](#events-ontario-regional) _2 items_
       - [Quebec Regional Rallies](#events-quebec-regional) _1 items_
       - [Atlantic Regional Rallies](#events-eastern-regional) _2 items_
       - [Western Regional Rallies](#events-western-regional) _1 items_
@@ -78,7 +78,6 @@ _Canadian Rally Sanctioning Bodies_
 _Canadain National Rally Championship Events_
 
 - <b><a href="https://carsrally.ca">Home | Canadian Rally Championship</a></b> <code><img src="https://carsrally.ca/wp-content/themes/crcrally/favicon-32x32.png" alt="CARS" style="display:inline;" width="16" height="16"></code> - The Canadian Rally Championship is Canada's top tier performance rally racing motorsport series, consisting of eight events held from coast to coast.
-- <b><a href="https://www.tallpinesrally.com/">Rally of the Tall Pines</a></b> <code><img src="https://carsrally.ca/wp-content/themes/crcrally/favicon-32x32.png" alt="CARS" style="display:inline;" width="16" height="16"></code> - Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
 
 ### Canadian Rally Clubs
 
@@ -93,7 +92,6 @@ _Canadian Rally Clubs and Organizations_
 
 _Ontario Rally Clubs and Organizations_
 
-- <b><a href="https://www.mlrc.ca/">Maple Leaf Rally Club</a></b>  - 
 - <b><a href="https://www.kwrc.on.ca/">Kitchener Waterloo Rally Club</a></b>  - 
 - <b><a href="https://ottawasportscarclub.ca/">Ottawa Sports Car Club</a></b>  - 
 - <b><a href="https://www.mco.org/wordpress/">Motorsport Club of Ottawa</a></b>  - 
@@ -107,6 +105,7 @@ _Ontario Rally Clubs and Organizations_
 _Quebec Rally Clubs and Organizations_
 
 - <b><a href="http://www.casll.qc.ca/">Club Auto Sport La Licorne</a></b>  - 
+- <b><a href="http://www.rallyebdc.com/">Club Rallye Auto de la Baie-des-Chaleurs (CRAB)</a></b>  - 
 - <b><a href="http://www.rallyeperceneige.com/">Rallye Perce-Neige Maniwaki</a></b>  - 
 - <b><a href="https://www.rallyecharlevoix.com/Le-club-CRDC">Club Rallye De Charlevoix  | RallyeCharlevoix.com</a></b>  - Club organisateur du Rallye de Charlevoix, membre de CARS et RSQ.
 
@@ -155,7 +154,6 @@ _Regional Rallies_
 
 - <b><a href="https://www.oprc.online/">HOME | OPRC</a></b>  - Ontario Performance Rally Championship
 - <b><a href="https://www.kwrc.on.ca/kw_events/gcfr-voyageurs-oprc/">Rally of the Voyageurs</a></b>  - 
-- <b><a href="https://www.mlrc.ca/blackbear/">Black Bear Rally</a></b>  - 
 
 #### Quebec Regional Rallies
 
